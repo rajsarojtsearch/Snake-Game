@@ -165,7 +165,7 @@ function expendSnake() {
 
 function checkGameOver(){
     if (snakeOutOfGrid() || snakeIntersection()) {
-        alert("Game Over : Raj Saroj");
+        alert("Game Over:");
         gameOver == true;
         location.reload();
     }
